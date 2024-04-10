@@ -49,8 +49,10 @@ div.Info h2{
 }
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 20px;
+  padding: 20px 0px;
+  gap: 100px;
 }
 /*Medio*/
 .title h2{
@@ -79,10 +81,7 @@ div.Info h2{
   height: 100px;
   width: 100px;
 }
-.container{
-  padding:50px 0px;
- 
-}
+
 /*Parte de abajo*/
 .down{
   display: flex;
