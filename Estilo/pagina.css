@@ -1,0 +1,111 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header{
+  background-color: #1f2937;
+  color: white;
+
+  justify-content: space-between;
+  padding: 10px;
+}
+/*Encabezado*/
+.Top{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  align-items: start;
+}
+.second-top{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.top{
+font-size: 24px;
+color: #f9faf8;
+}
+.Top-abajo{
+  background-color: #1f2937;
+  padding: 20px;
+}
+div.Info h2{
+  font-size: 48px #f9faf8;
+}
+.boton{
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Info{
+  display: flex;
+  justify-content:space-evenly;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+/*Medio*/
+.title h2{
+  display: flex;
+  justify-content: center;
+}
+.container div{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.second-mid{
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-family: light italic;
+  color: #1f2937;
+  margin: 20px;
+}
+.container div img{
+  height: 100px;
+  width: 100px;
+}
+.container{
+  padding:50px 0px;
+ 
+}
+/*Parte de abajo*/
+.down{
+  display: flex;
+  justify-content: center;
+}
+.mensaje{
+  height: 100px;
+  width: 700px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 10px;
+}
+.boton-down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boton-down a{
+  border: white solid 3px;
+  border-radius: 5px;
+  width: 70px;
+  justify-content: center;
+  display: flex;
+}
